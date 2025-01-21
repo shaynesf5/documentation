@@ -20,6 +20,11 @@ From the NGINX One Console you can:
 - Ensure that your certificates are current and correct.
 - Manage your certificates from a central location. This can help you simplify operations and remotely update, rotate, and deploy those certificates.
 
+You can manage the certificates for:
+
+- [Unique instances]({{ < relref "/nginx-one/how-to/nginx-configs/add-file.md" >}})
+- For [all instances that are members of a Config Sync Group]({{ < relref "/nginx-one/how-to/config-sync-groups/add-file.md" >}})
+
 For more information on how you can use these certificates to secure your servers, refer to the section on [NGINX SSL termination]({{< relref "/nginx/admin-guide/security-controls/terminating-ssl-http.md" >}}).
 
 {{< tip >}}
